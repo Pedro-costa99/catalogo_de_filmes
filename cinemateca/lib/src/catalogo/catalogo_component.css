@@ -1,0 +1,67 @@
+#catalogo-filmes{
+    margin-top: 150px;
+}
+
+#hr-catalogo{
+    width: 200px;
+    margin-left: 40px ;
+    background-color: #bb1313;
+    border: 5px solid #bb1313;
+}
+
+h2{
+    margin-left: 40px;
+}
+
+.filme{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(97, 17, 17);
+    margin: 10px;
+}
+
+.nome-filme, .nome-diretor, .avaliacao-filme, .preco-filme{
+    margin-bottom: 5px;
+}
+
+
+.img-fluid{
+    width: 50%;  
+    align-self: center;
+}
+
+.nome-filme{
+
+}
+
+
+.nome-diretor{
+    font-size: 0.8rem;
+    font-style: italic;
+
+}
+
+.avaliacao-filme{
+
+}
+
+.estrela-ouro{
+    color: gold;
+
+}
+
+.estrela-prata{
+    color: silver;
+
+}
+
+.preco-filme{
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
